@@ -1,0 +1,40 @@
+/* Course.css */
+
+.course-container {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: url('');
+}
+
+.course-container h1 {
+  margin-bottom: 20px;
+}
+
+.course h5 {
+  margin-bottom: 5px;
+}
+
+.course h6 {
+  margin-bottom: 15px;
+}
+
+.delivery-method,
+.level {
+  margin-bottom: 20px;
+}
+
+.delivery-method h2,
+.level h2 {
+  margin-top: 20px;
+}
+
+.delivery-method input[type="radio"] {
+  margin-right: 10px;
+}
+
+/* Style labels to make them clickable */
+.delivery-method label {
+  cursor: pointer;
+}

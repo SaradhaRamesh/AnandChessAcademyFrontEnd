@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "title": "International Chess Day",
+        "des": "20.4.2024",
+        "img": "/images/img1.avif",
+        "date": "20.4.2024",
+        "address": "Chess Arena South Hall"
+    },
+    {
+        "id": 2,
+        "title": "chess competition",
+        "des": "tournament details",
+        "img": "/images/img2.jfif",
+        "date": "25.4.2024",
+        "address": "north car street"
+    },
+    {
+        "id": 3,
+        "title": "Poster 3",
+        "des": "tournament details",
+        "img": "/images/img3.jfif",
+        "date": "28.4.2024",
+        "address": "north car street"
+    },
+    {
+        "id": 4,
+        "title": "Poster 4",
+        "des": "tournament details",
+        "img": "/images/img4.jfif",
+        "date": "23.12.2024",
+        "address": "north car street"
+    },
+    {
+        "id": 5,
+        "title": "Poster 5",
+        "des": "tournament details",
+        "img": "/images/img5.jfif",
+        "date": "25.12.2024",
+        "address": "north car street"
+    },
+    {
+        "id": 6,
+        "title": "Poster 6",
+        "des": "tournament details",
+        "img": "/images/img6.jfif",
+        "date": "25.12.2024",
+        "address": "north car street"
+    },
+    {
+        "id": 7,
+        "title": "Poster 7",
+        "des": "tournament details",
+        "img": "/images/img7.jfif",
+        "date": "25.12.2024",
+        "address": "north car street"
+    },
+    {
+        "id": 8,
+        "title": "Poster 8",
+        "des": "tournament details",
+        "img": "/images/img8.jfif",
+        "date": "25.12.2024",
+        "address": "north car street"
+    },
+    {
+        "id": 9,
+        "title": "Poster 9",
+        "des": "tournament details",
+        "img": "/images/img9.jfif",
+        "date": "25.12.2023",
+        "address": "north car street"
+    },
+    {
+        "id": 10,
+        "title": "Poster 10",
+        "des": "tournament details",
+        "img": "/images/img10.jfif",
+        "date": "25.12.2024",
+        "address": "north car street"
+    },
+    {
+        "id": 11,
+        "title": "Poster 11",
+        "des": "tournament details",
+        "img": "/images/img11.jfif",
+        "date": "25.12.2023",
+        "address": "north car street"
+    },
+    {
+        "id": 12,
+        "title": "Poster 12",
+        "des": "tournament details",
+        "img": "/images/img12.jfif",
+        "date": "25.12.2022",
+        "address": "north car street"
+    },
+    {
+        "id": 13,
+        "title": "Poster 13",
+        "des": "tournament details",
+        "img": "/images/img13.jfif",
+        "date": "25.12.2024",
+        "address": "north car street"
+    },
+    {
+        "id": 14,
+        "title": "Poster 14",
+        "des": "tournament details",
+        "img": "/images/img14.jfif",
+        "date": "25.12.2024",
+        "address": "north car street"
+    },
+    {
+        "id": 15,
+        "title": "Poster 15",
+        "des": "tournament details",
+        "img": "/images/img15.webp",
+        "date": "25.12.2024",
+        "address": "north car street"
+    }
+]
