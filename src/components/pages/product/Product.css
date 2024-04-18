@@ -1,14 +1,21 @@
-/* Course.css */
+/* Product.css */
 
 .course-container {
-  margin: 20px;
-  padding: 20px;
+  max-width: 500px; /* Set maximum width */
+  margin: 20px auto; /* Center align horizontally */
+  padding: 40px; /* Padding for the container */
   border: 1px solid #ccc;
   border-radius: 5px;
-  background: url('');
+  color: #081b29;
+  background-color: #f38eac;
 }
 
 .course-container h1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.course {
   margin-bottom: 20px;
 }
 
@@ -16,25 +23,50 @@
   margin-bottom: 5px;
 }
 
-.course h6 {
-  margin-bottom: 15px;
+.course input[type="text"],
+.course input[type="email"],
+.course select {
+  width: 100%; /* Make inputs and select fill the width of the container */
+  padding: 10px; /* Padding for inputs and select */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
 }
 
-.delivery-method,
+.course select {
+  appearance: none; /* Remove default dropdown arrow */
+  background-image: url('data:image/svg+xml;utf8,<svg fill="%23333" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10 12l-5-5 1.5-1.5L10 9.5 13.5 5 15 6.5z"/><path d="M0 0h20v20H0z" fill="none"/></svg>'); /* Custom dropdown arrow */
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+}
+
+.delivery-method {
+  margin-bottom: 20px;
+}
+
+.delivery-method h5 {
+  margin-bottom: 5px;
+}
+
+.delivery-method select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
 .level {
   margin-bottom: 20px;
 }
 
-.delivery-method h2,
-.level h2 {
-  margin-top: 20px;
+.level h5 {
+  margin-bottom: 5px;
 }
 
-.delivery-method input[type="radio"] {
-  margin-right: 10px;
+.level select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
-/* Style labels to make them clickable */
-.delivery-method label {
-  cursor: pointer;
-}

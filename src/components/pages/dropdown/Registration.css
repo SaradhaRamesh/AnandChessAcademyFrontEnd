@@ -1,107 +1,112 @@
 .containerR {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  .panel {
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  }
-  
-  .panel-heading {
-    background-color: #f0f0f0;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.panel {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.panel-heading {
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+
+.panel-body {
+  padding: 20px;
+}
+
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  flex: 1;
+  margin-right: 15px;
+  margin-bottom: 10px;
+}
+
+.form-group:last-child {
+  margin-right: 0;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+  margin-right: 10px; /* Adjust the spacing between the labels */
+}
+
+.radiobutton-group {
+  display: flex;
+  align-items: center;
+}
+
+.radiobutton {
+  margin-right: 0; /* Remove the margin-right to avoid extra spacing */
+}
+
+input,
+select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+.error {
+  color: red; /* Set error message color to red */
+  font-size: 12px; /* Adjust font size if needed */
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Media Queries */
+@media screen and (max-width: 600px) {
+  .containerR {
     padding: 10px;
   }
-  
+
   .panel-body {
-    padding: 20px;
+    padding: 10px;
   }
-  
-  .form-row {
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 20px;
-  }
-  
+
   .form-group {
-    flex: 1;
-    margin-right: 15px;
     margin-bottom: 10px;
   }
-  
-  .form-group:last-child {
-    margin-right: 0;
-  }
-  
+
   label {
-    font-weight: bold;
     display: block;
     margin-bottom: 5px;
-    margin-right: 10px; /* Adjust the spacing between the labels */
   }
-  
-  .radiobutton-group {
-    display: flex;
-    align-items: center;
-  }
-  
-  .radiobutton {
-    margin-right: 0; /* Remove the margin-right to avoid extra spacing */
-  }
-  
-  input,
+
+  input[type="text"],
+  input[type="email"],
+  input[type="radio"],
   select {
     width: 100%;
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 6px;
+    padding: 10px;
     box-sizing: border-box;
   }
-  
+
   .btn-primary {
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
+    width: 100%;
   }
-  
-  .btn-primary:hover {
-    background-color: #0056b3;
-  }
-  
-  /* Media Queries */
-  @media screen and (max-width: 600px) {
-    .containerR {
-      padding: 10px;
-    }
-  
-    .panel-body {
-      padding: 10px;
-    }
-  
-    .form-group {
-      margin-bottom: 10px;
-    }
-  
-    label {
-      display: block;
-      margin-bottom: 5px;
-    }
-  
-    input[type="text"],
-    input[type="email"],
-    input[type="radio"],
-    select {
-      width: 100%;
-      padding: 10px;
-      box-sizing: border-box;
-    }
-  
-    .btn-primary {
-      width: 100%;
-    }
-  }
-  
+}

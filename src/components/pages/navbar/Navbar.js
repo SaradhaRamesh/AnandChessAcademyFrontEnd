@@ -76,15 +76,15 @@ function Navbar() {
               Contact Us
             </Link>
           </li>
-          <li>
+          <li className='nav-item'>
             <Link
-              to='/login' 
-              className='nav-links-mobile'
+              to='/admin/login'
+              className='nav-links'
               onClick={closeMobileMenu}
             >
-              Sign Up
+              Admin Login
             </Link>
-          </li>
+          </li>          
         </ul>
         <Button />
       </nav>

@@ -1,0 +1,52 @@
+/* CourseDetails.css */
+
+.courseTable {
+  margin: 0 auto; /* Center the table horizontally */
+  max-width: 800px; /* Set maximum width for responsiveness */
+  width: 90%;
+  padding: 20px;
+  text-align: center;
+}
+
+.courseTable h3 {
+  color: #081b29;
+}
+
+.courseTable table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+}
+
+.courseTable th,
+.courseTable td {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+.courseTable th {
+  background-color: #ff427b;
+  color: #081b29;
+}
+
+.courseTable tbody tr:nth-child(even) {
+  background-color: #fbc6c6;
+}
+
+.courseTable tbody tr:hover {
+  background-color: #ddd;
+}
+
+/* Responsive styling */
+@media screen and (max-width: 600px) {
+  .courseTable {
+    width: 100%;
+    margin: 0;
+  }
+
+  .courseTable th,
+  .courseTable td {
+    padding: 6px;
+    font-size: 14px;
+  }
+}

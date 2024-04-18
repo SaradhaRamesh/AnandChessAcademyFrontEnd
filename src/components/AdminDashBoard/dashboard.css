@@ -1,0 +1,35 @@
+.dashboard-container {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 60vh; /* Make it cover the full screen vertically */
+  }
+  
+  .dashboard-heading {
+    text-align: center;
+    color: #ff427b;
+  }
+  
+  .grid-content {
+    display: flex;
+    background-color: #cffbf7;  
+    flex-direction: column;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    height: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    align-items: center;
+    color: #081b29;
+    
+  }
+  .grid-content .icon{
+    color: #ff427b;
+  }
+  .grid-item:hover {
+    border-color: #d80947;
+    transform: translateY(-5px); /* Example hover effect */
+  }
+  

@@ -1,0 +1,26 @@
+.registrationDataTable {
+    text-align: center; 
+    padding: 10px;
+  }
+  
+  .registrationDataTable table {
+    width: 100%; /* Set table width to 100% */
+    max-width: 1000px;
+    margin: 0 auto; 
+    border-collapse: collapse; /* Collapse table borders */
+  }
+  
+  .registrationDataTable th,
+  .registrationDataTable td {
+    padding: 8px; /* Add padding to table cells */
+    border: 1px solid #dddddd; /* Add border to table cells */
+  }
+  
+  .registrationDataTable th {
+    background-color: #ff427b; /* Add background color to table header */
+  }
+  
+  .registrationDataTable tbody tr:nth-child(even) {
+    background-color: #fbc6c6; /* Alternate row background color */
+  }
+  

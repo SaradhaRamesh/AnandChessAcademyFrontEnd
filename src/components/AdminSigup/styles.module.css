@@ -22,7 +22,7 @@
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	background-color: #ff4879;
+	background-color: #20b3a4;
 	border-top-left-radius: 10px;
 	border-bottom-left-radius: 10px;
 }
@@ -54,7 +54,7 @@
 .form_container h1 {
 	font-size: 40px;
 	margin-top: 0;
-	color: #ff4879;
+	color: #20b3a4;
 }
 
 .input {
@@ -93,7 +93,7 @@
 }
 
 .green_btn {
-	background-color: #ff4879;
+	background-color: #20b3a4;
 	color: white;
 	margin: 10px;
 }

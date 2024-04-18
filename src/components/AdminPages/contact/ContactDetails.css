@@ -1,0 +1,48 @@
+.contactTable {
+    margin: 0 auto; /* Center the table horizontally */
+    max-width: 800px; /* Set maximum width for responsiveness */
+    width: 90%; 
+    padding: 20px;
+    /* height: 60vh; */
+    text-align: center;
+  }
+  .contactTable h3{
+    color: #081b29;
+  }
+  .contactTable table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+  }
+  
+  .contactTable th, .contactTable td {
+    padding: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  .contactTable th {
+    background-color: #ff427b;
+    color: #081b29;
+  }
+  
+  .contactTable tbody tr:nth-child(even) {
+    background-color: #fbc6c6;
+  }
+  
+  .contactTable tbody tr:hover {
+    background-color: #ddd;
+  }
+  
+  /* Responsive styling */
+  @media screen and (max-width: 600px) {
+    .contactTable {
+      width: 100%;
+      margin: 0;
+    }
+  
+    .contactTable th, .contactTable td {
+      padding: 6px;
+      font-size: 14px;
+    }
+  }
+  

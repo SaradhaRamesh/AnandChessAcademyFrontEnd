@@ -51,14 +51,14 @@
     margin-bottom: 10px;
   }
   
-  input[type="email"] {
+ .foot-container input[type="email"] {
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
   }
   
-  button[type="submit"] {
-    background-color: #ff5722;
+ .foot-container  button[type="submit"] {
+    background-color: #ff4879;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -66,6 +66,6 @@
   }
   
   button[type="submit"]:hover {
-    background-color: #f44336;
+    background-color: #ff4879;
   }
   

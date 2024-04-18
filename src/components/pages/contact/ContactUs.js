@@ -35,6 +35,7 @@ const Contact = () => {
     try {
       const response = await axios.post('http://localhost:8080/api/contact', formData);
       console.log(response.data); // Log response from server
+      alert('successfully submitted')
     } catch (error) {
       console.error('Error:', error);
       // Handle error, show error message to user, etc.

@@ -25,8 +25,7 @@ body {
 
 /* buttonStyles.css */
 
-.customButton {
-    background-color: #ff4879;
+.btn {
     padding: 8px 20px;
     border-radius: 16px;
     outline: none;
@@ -34,8 +33,9 @@ body {
     font-size: 16px;
     color: #fff;
     cursor: pointer;
-}
-
+    background-color: var(--primary);
+  }
+  
 .customButton:hover,
 .nav-links:focus {
     color: #ff4879;
@@ -56,12 +56,12 @@ body {
 
 .details h1 {
     font-size: 4em;
-    color: #fff;
-}
+     color: #ff427b;
+    }
 
 .details p {
     text-transform: capitalize;
-    color: #ffa480;
+    color: #fff;
 }
 
 @keyframes animate {
