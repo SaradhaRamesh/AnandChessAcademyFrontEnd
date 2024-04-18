@@ -17,10 +17,11 @@ const UserSignup = () => {
 		setData({ ...data, [input.name]: input.value });
 	};
 
+	
 	const handleSubmit = async (e) => {
 		e.preventDefault();
 		try {
-			const url = "https://localhost/8080/api/users";
+			const url = "http://localhost:8080/api/users";
 			const { data: res } = await axios.post(url, data);
 			navigate("/login");
 			console.log(res.message);

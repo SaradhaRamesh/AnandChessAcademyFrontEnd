@@ -8,7 +8,7 @@ const ContactDetails = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get('https://anandchessacademybackend-3.onrender.com/api/contact');
+        const response = await axios.get('http://localhost:8080/api/contact');
         setFormData(response.data); // Assuming the response.data is an array of contact objects
         setLoading(false);
       } catch (error) {

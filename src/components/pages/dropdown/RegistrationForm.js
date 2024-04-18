@@ -56,7 +56,7 @@ const RegistrationForm = () => {
     if (!validateForm()) return;
 
     try {
-      await axios.post('https://localhost/8080/api/register', formData);
+      await axios.post('http://localhost:8080/api/register', formData);
       console.log('User registered successfully!');
       resetForm();
       alert("Successfully Registered");

@@ -33,7 +33,7 @@ const Contact = () => {
     }
   
     try {
-      const response = await axios.post('https://anandchessacademybackend-3.onrender.com/api/contact', formData);
+      const response = await axios.post('http://localhost:8080/api/contact', formData);
       console.log(response.data); // Log response from server
       alert('successfully submitted')
     } catch (error) {
