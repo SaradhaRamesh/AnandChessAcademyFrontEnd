@@ -47,7 +47,7 @@ const Course = () => {
     };
 
     try {
-      const response = await axios.post('http://localhost:8080/api/course', courseData); // Use courseData instead of formData
+      const response = await axios.post('https://anandchessacademybackend-3.onrender.com/api/course', courseData); // Use courseData instead of formData
       
       if (response.status === 201) { // Check response status instead of response.ok
         alert('Course details submitted successfully!');

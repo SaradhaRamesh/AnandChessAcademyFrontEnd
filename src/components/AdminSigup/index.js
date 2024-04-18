@@ -20,7 +20,7 @@ const AdminSignup = () => {
 	const handleSubmit = async (e) => {
 		e.preventDefault();
 		try {
-			const url = "http://localhost:8080/api/admin";
+			const url = "https://anandchessacademybackend-3.onrender.com/api/admin";
 			const { data: res } = await axios.post(url, data);
 			navigate("/admin/login");
 			console.log(res.message);

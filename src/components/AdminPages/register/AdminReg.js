@@ -8,7 +8,7 @@ const Adminreg = () => {
   useEffect(() => {
     const fetchUserData = async () => {
       try {
-        const response = await axios.get('http://localhost:8080/api/register'); // Update API endpoint
+        const response = await axios.get('https://anandchessacademybackend-3.onrender.com/api/register'); // Update API endpoint
         setUserData(response.data);
         setLoading(false);
       } catch (error) {
