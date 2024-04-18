@@ -8,7 +8,7 @@ const CourseDetails = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get('https://anandchessacademybackend-3.onrender.com/api/course');
+        const response = await axios.get('https://localhost/8080/api/course');
         setCourses(response.data);
       } catch (error) {
         console.error('Error:', error);
