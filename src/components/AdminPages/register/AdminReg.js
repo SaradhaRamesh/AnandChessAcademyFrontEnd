@@ -37,7 +37,7 @@ const Adminreg = () => {
             <th>Rating</th>
             <th>Gender</th>
             {/* <th>Date of Birth</th> */}
-            <th>Parent Name</th>
+            {/*<th>Parent Name</th>*/}
             {/* <th>Institute</th> */}
             <th>Mobile Number</th>
             {/* <th>Alternate Mobile Number</th> */}
@@ -61,7 +61,7 @@ const Adminreg = () => {
               <td>{user.rating}</td>
               <td>{user.gender}</td>
               {/* <td>{`${user.dob.date}/${user.dob.month}/${user.dob.year}`}</td> */}
-              <td>{user.parentName}</td>
+              {/* <td>{user.parentName}</td> */}
               {/* <td>{user.institute}</td> */}
               <td>{user.mobileNumber}</td>
               {/* <td>{user.alternateMobileNumber}</td> */}
