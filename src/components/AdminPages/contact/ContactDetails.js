@@ -26,7 +26,7 @@ const ContactDetails = () => {
 
   return (
     <div className="contactTable">
-      <h3>Contact Form Data</h3>
+      <h1>Contact Form Data</h1>
       <table>
         <thead>
           <tr>

@@ -26,7 +26,7 @@ const LoginDetails = () => {
 
   return (
     <div className="table-container">
-      <h2>User Data</h2>
+      <h1>User Data</h1>
       <table>
         <thead>
           <tr>

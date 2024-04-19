@@ -4,18 +4,20 @@
   margin: 0 auto; /* Center the table horizontally */
   max-width: 800px; /* Set maximum width for responsiveness */
   width: 90%;
-  padding: 20px;
+  padding: 30px;
   text-align: center;
 }
 
-.courseTable h3 {
+.courseTable h1 {
   color: #081b29;
+  
 }
 
 .courseTable table {
   width: 100%;
   border-collapse: collapse;
   border: 1px solid #ddd;
+
 }
 
 .courseTable th,

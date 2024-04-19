@@ -2,11 +2,11 @@
     margin: 0 auto; /* Center the table horizontally */
     max-width: 800px; /* Set maximum width for responsiveness */
     width: 90%; 
-    padding: 20px;
+    padding: 30px;
     /* height: 60vh; */
     text-align: center;
   }
-  .contactTable h3{
+  .contactTable h1{
     color: #081b29;
   }
   .contactTable table {

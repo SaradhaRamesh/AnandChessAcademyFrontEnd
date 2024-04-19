@@ -26,7 +26,7 @@ const Adminreg = () => {
 
   return (
     <div className="registrationDataTable">
-      <h3>Registered Users</h3>
+      <h1>Registered Users</h1>
       <table>
         <thead>
           <tr>

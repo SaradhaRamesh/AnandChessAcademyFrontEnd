@@ -13,7 +13,8 @@
 }
 
 .dropdown-menu li:hover {
-  background: rgba(0, 255, 238, 0.581);
+  background: rgba(0, 255, 238, 0.848);
+  color: #000000;
 }
 
 .dropdown-menu.clicked {
