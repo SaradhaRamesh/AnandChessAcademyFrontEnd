@@ -2,121 +2,122 @@
     {
         "id": 1,
         "title": "International Chess Day",
-        "des": "20.4.2024",
+        "des": "",
         "img": "/images/img1.avif",
         "date": "20.4.2024",
         "address": "Chess Arena South Hall"
     },
     {
         "id": 2,
-        "title": "chess competition",
-        "des": "tournament details",
+        "title": "The Mind Chess",
+        "des": "Online TMT",
         "img": "/images/img2.jfif",
-        "date": "25.4.2024",
-        "address": "north car street"
+        "date": "24.4.2024",
+        "address": "online"
     },
     {
         "id": 3,
-        "title": "Poster 3",
-        "des": "tournament details",
+        "title": "Womens Chess Tournament",
+        "des": "Only TN Women Players",
         "img": "/images/img3.jfif",
         "date": "28.4.2024",
-        "address": "north car street"
+        "address": "Kovilpati"
     },
     {
         "id": 4,
-        "title": "Poster 4",
-        "des": "tournament details",
+        "title": "Spark Chess Academt",
+        "des": "Open Fide Rating",
         "img": "/images/img4.jfif",
-        "date": "23.12.2024",
-        "address": "north car street"
+        "date": "24.4.2024",
+        "address": "vijayavada"
     },
     {
         "id": 5,
-        "title": "Poster 5",
-        "des": "tournament details",
+        "title": "Holiday Online Tournament",
+        "des": "Online TMT",
         "img": "/images/img5.jfif",
-        "date": "25.12.2024",
-        "address": "north car street"
+        "date": "28.4.2024",
+        "address": "Tornelo"
     },
     {
         "id": 6,
-        "title": "Poster 6",
-        "des": "tournament details",
+        "title": "Nakshathra  Tournament",
+        "des": "TN Playes only",
         "img": "/images/img6.jfif",
-        "date": "25.12.2024",
-        "address": "north car street"
+        "date": "30.8.2024",
+        "address": "Vilupuram"
     },
     {
         "id": 7,
-        "title": "Poster 7",
-        "des": "tournament details",
+        "title": "Master Chess Academy",
+        "des": "TN Playes only",
         "img": "/images/img7.jfif",
-        "date": "25.12.2024",
-        "address": "north car street"
+        "date": "28.4.2024",
+        "address": "Pudukkottai"
     },
     {
         "id": 8,
-        "title": "Poster 8",
-        "des": "tournament details",
+        "title": "Anand Chess Academy",
+        "des": "TN Playes only",
         "img": "/images/img8.jfif",
         "date": "25.12.2024",
         "address": "north car street"
     },
     {
         "id": 9,
-        "title": "Poster 9",
-        "des": "tournament details",
+        "title": "KCG",
+        "des": " Fide TMT",
         "img": "/images/img9.jfif",
-        "date": "25.12.2023",
-        "address": "north car street"
+        "date": "1.5.2024",
+        "address": "Chennai"
     },
     {
         "id": 10,
-        "title": "Poster 10",
-        "des": "tournament details",
+        "title": "Sethu Insititute",
+        "des": "Championship",
         "img": "/images/img10.jfif",
-        "date": "25.12.2024",
-        "address": "north car street"
+        "date": "5.5.2024",
+        "address": "Chennai"
     },
     {
         "id": 11,
-        "title": "Poster 11",
-        "des": "tournament details",
+        "title": "Mind Chess",
+        "des": " Online",
         "img": "/images/img11.jfif",
-        "date": "25.12.2023",
-        "address": "north car street"
+        "date": "20.12.2023",
+        "address": "Madurai"
     },
     {
         "id": 12,
-        "title": "Poster 12",
-        "des": "tournament details",
+        "title": "Womens Tournament",
+        "des": "Only TN Women Players",
         "img": "/images/img12.jfif",
-        "date": "25.12.2022",
-        "address": "north car street"
+        "date": "3.6.2022",
+        "address": "Karur"
     },
     {
         "id": 13,
-        "title": "Poster 13",
-        "des": "tournament details",
+        "title": "Vidhya Sagar",
+        "des": "grand south tournament",
         "img": "/images/img13.jfif",
         "date": "25.12.2024",
-        "address": "north car street"
+        "address": "chennai"
     },
     {
         "id": 14,
-        "title": "Poster 14",
-        "des": "tournament details",
+        "title": "Karnataka Fide Rating",
+        "des": "Fide Rating",
         "img": "/images/img14.jfif",
-        "date": "25.12.2024",
+        "date": "17.7.2022",
         "address": "north car street"
     },
     {
         "id": 15,
-        "title": "Poster 15",
-        "des": "tournament details",
+        "title": " ISC",
+        "des": "All India",
         "img": "/images/img15.webp",
-        "date": "25.12.2024",
-        "address": "north car street"
+        "date": "25.12.2025",
+        "address": "chennai"
     }
+    
 ]
