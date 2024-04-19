@@ -75,6 +75,7 @@ function UpcomingTournaments() {
       const imgHeightMM = (canvasHeight / canvasWidth) * imgWidthMM; // Maintain aspect ratio
       pdf.addImage(dataUrl, 'PNG', 0, 0, imgWidthMM, imgHeightMM, '', 'FAST'); // Add image with full size and high quality
       pdf.save('tour_image.pdf');
+      alert('Downloaded Successfuly');
     };
 
     img.onerror = (error) => {
@@ -86,6 +87,7 @@ function UpcomingTournaments() {
   return (
     <div style={{ display: 'flex', justifyContent: 'center' }}>
       <Container maxWidth="xl">
+      <Typography variant="h4" style={{ textAlign: "center" }}>Upgoing Tournaments</Typography>
         <Grid container spacing={1} style={{ marginTop: "20px", justifyContent: 'center', width: '100%' }}>
           {filteredTournaments.slice((page - 1) * itemsPerPage, page * itemsPerPage).map((result, index) => (
             <Grid item xs={12} sm={9} md={4} key={index} style={{ display: 'flex', justifyContent: 'center' }}>
