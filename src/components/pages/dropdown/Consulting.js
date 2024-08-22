@@ -35,6 +35,22 @@ function CompletedTournaments() {
   return (
     <div style={{ display: 'flex', justifyContent: 'center' }}>
       <Container maxWidth="xl">
+      <Typography 
+  variant="h4" 
+  style={{ 
+    justifyContent:"center",
+    textAlign: "center", 
+    padding: "10px", 
+    color:"#ff4879",
+    paddingBottom: "1px",
+    borderRadius: "10px", 
+    boxShadow: "0 4px 8px rgba(255, 72, 121, 0.1)"
+
+  }}
+>
+  CompletedTournaments
+</Typography>
+     
         <Grid container spacing={1} style={{ marginTop: "20px", justifyContent: 'center', width: '100%' }}>
           {currentItems.map((result, index) => (
             <Grid item xs={12} sm={9} md={4} key={index} style={{ display: 'flex', justifyContent: 'center' }}>

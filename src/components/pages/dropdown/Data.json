@@ -4,7 +4,7 @@
         "title": "International Chess Day",
         "des": "",
         "img": "/images/img1.avif",
-        "date": "20.4.2024",
+        "date": "20.3.2024",
         "address": "Chess Arena South Hall"
     },
     {
@@ -12,7 +12,7 @@
         "title": "The Mind Chess",
         "des": "Online TMT",
         "img": "/images/img2.jfif",
-        "date": "24.4.2024",
+        "date": "24.8.2024",
         "address": "online"
     },
     {
@@ -20,29 +20,29 @@
         "title": "Womens Chess Tournament",
         "des": "Only TN Women Players",
         "img": "/images/img3.jfif",
-        "date": "28.4.2024",
+        "date": "28.4.2023",
         "address": "Kovilpati"
     },
     {
         "id": 4,
-        "title": "Spark Chess Academt",
+        "title": "Spark Chess Academy",
         "des": "Open Fide Rating",
         "img": "/images/img4.jfif",
-        "date": "24.4.2024",
-        "address": "vijayavada"
+        "date": "24.8.2024",
+        "address": "Vijayawada"
     },
     {
         "id": 5,
         "title": "Holiday Online Tournament",
         "des": "Online TMT",
         "img": "/images/img5.jfif",
-        "date": "28.4.2024",
+        "date": "28.12.2023",
         "address": "Tornelo"
     },
     {
         "id": 6,
-        "title": "Nakshathra  Tournament",
-        "des": "TN Playes only",
+        "title": "Nakshathra Tournament",
+        "des": "TN Players only",
         "img": "/images/img6.jfif",
         "date": "30.8.2024",
         "address": "Vilupuram"
@@ -50,30 +50,30 @@
     {
         "id": 7,
         "title": "Master Chess Academy",
-        "des": "TN Playes only",
+        "des": "TN Players only",
         "img": "/images/img7.jfif",
-        "date": "28.4.2024",
+        "date": "28.7.2024",
         "address": "Pudukkottai"
     },
     {
         "id": 8,
         "title": "Anand Chess Academy",
-        "des": "TN Playes only",
+        "des": "TN Players only",
         "img": "/images/img8.jfif",
-        "date": "25.12.2024",
-        "address": "north car street"
+        "date": "25.8.2024",
+        "address": "North Car Street"
     },
     {
         "id": 9,
         "title": "KCG",
-        "des": " Fide TMT",
+        "des": "Fide TMT",
         "img": "/images/img9.jfif",
-        "date": "1.5.2024",
+        "date": "1.8.2024",
         "address": "Chennai"
     },
     {
         "id": 10,
-        "title": "Sethu Insititute",
+        "title": "Sethu Institute",
         "des": "Championship",
         "img": "/images/img10.jfif",
         "date": "5.5.2024",
@@ -82,9 +82,9 @@
     {
         "id": 11,
         "title": "Mind Chess",
-        "des": " Online",
+        "des": "Online",
         "img": "/images/img11.jfif",
-        "date": "20.12.2023",
+        "date": "20.7.2023",
         "address": "Madurai"
     },
     {
@@ -92,32 +92,311 @@
         "title": "Womens Tournament",
         "des": "Only TN Women Players",
         "img": "/images/img12.jfif",
-        "date": "3.6.2022",
+        "date": "3.6.2023",
         "address": "Karur"
     },
     {
         "id": 13,
         "title": "Vidhya Sagar",
-        "des": "grand south tournament",
+        "des": "Grand South Tournament",
         "img": "/images/img13.jfif",
         "date": "25.12.2024",
-        "address": "chennai"
+        "address": "Chennai"
     },
     {
         "id": 14,
         "title": "Karnataka Fide Rating",
         "des": "Fide Rating",
         "img": "/images/img14.jfif",
-        "date": "17.7.2022",
-        "address": "north car street"
+        "date": "17.7.2023",
+        "address": "North Car Street"
     },
     {
         "id": 15,
-        "title": " ISC",
+        "title": "ISC",
         "des": "All India",
         "img": "/images/img15.webp",
         "date": "25.12.2025",
-        "address": "chennai"
+        "address": "Chennai"
+    },
+    {
+        "id": 16,
+        "title": "Chess Challenge",
+        "des": "Open for all",
+        "img": "/images/img1.avif",
+        "date": "10.1.2023",
+        "address": "Bangalore"
+    },
+    {
+        "id": 17,
+        "title": "King's Gambit",
+        "des": "Junior Tournament",
+        "img": "/images/img2.jfif",
+        "date": "5.3.2023",
+        "address": "Delhi"
+    },
+    {
+        "id": 18,
+        "title": "Queen's Game",
+        "des": "Women's Championship",
+        "img": "/images/img3.jfif",
+        "date": "15.2.2023",
+        "address": "Mumbai"
+    },
+    {
+        "id": 19,
+        "title": "Rook's Revenge",
+        "des": "Senior Tournament",
+        "img": "/images/img4.jfif",
+        "date": "1.6.2023",
+        "address": "Hyderabad"
+    },
+    {
+        "id": 20,
+        "title": "Pawn's Play",
+        "des": "Beginners Tournament",
+        "img": "/images/img5.jfif",
+        "date": "20.9.2023",
+        "address": "Pune"
+    },
+    {
+        "id": 21,
+        "title": "Knight's Tour",
+        "des": "Open Fide Rating",
+        "img": "/images/img6.jfif",
+        "date": "11.12.2023",
+        "address": "Kolkata"
+    },
+    {
+        "id": 22,
+        "title": "Bishop's Blitz",
+        "des": "Rapid Tournament",
+        "img": "/images/img7.jfif",
+        "date": "5.11.2023",
+        "address": "Ahmedabad"
+    },
+    {
+        "id": 23,
+        "title": "Checkmate Challenge",
+        "des": "Open for all",
+        "img": "/images/img8.jfif",
+        "date": "25.7.2023",
+        "address": "Bangalore"
+    },
+    {
+        "id": 24,
+        "title": "Endgame Tournament",
+        "des": "Finals",
+        "img": "/images/img9.jfif",
+        "date": "17.12.2023",
+        "address": "Chennai"
+    },
+    {
+        "id": 25,
+        "title": "Opening Moves",
+        "des": "Kickoff Tournament",
+        "img": "/images/img10.jfif",
+        "date": "8.2.2023",
+        "address": "Delhi"
+    },
+    {
+        "id": 26,
+        "title": "Chess Masters",
+        "des": "International Event",
+        "img": "/images/img11.jfif",
+        "date": "23.4.2023",
+        "address": "Mumbai"
+    },
+    {
+        "id": 27,
+        "title": "Strategic Play",
+        "des": "Team Event",
+        "img": "/images/img12.jfif",
+        "date": "14.6.2023",
+        "address": "Hyderabad"
+    },
+    {
+        "id": 28,
+        "title": "Check and Mate",
+        "des": "Open Championship",
+        "img": "/images/img13.jfif",
+        "date": "29.5.2023",
+        "address": "Pune"
+    },
+    {
+        "id": 29,
+        "title": "Mind Game",
+        "des": "Mental Championship",
+        "img": "/images/img14.jfif",
+        "date": "3.10.2023",
+        "address": "Kolkata"
+    },
+    {
+        "id": 30,
+        "title": "Brain Brawl",
+        "des": "Speed Chess",
+        "img": "/images/img15.webp",
+        "date": "21.11.2023",
+        "address": "Ahmedabad"
+    },
+    {
+        "id": 31,
+        "title": "Junior Championship",
+        "des": "Under 18",
+        "img": "/images/img1.avif",
+        "date": "15.7.2023",
+        "address": "Chennai"
+    },
+    {
+        "id": 32,
+        "title": "Senior Championship",
+        "des": "Above 50",
+        "img": "/images/img2.jfif",
+        "date": "9.8.2023",
+        "address": "Delhi"
+    },
+    {
+        "id": 33,
+        "title": "City Tournament",
+        "des": "Open for city residents",
+        "img": "/images/img3.jfif",
+        "date": "18.9.2023",
+        "address": "Mumbai"
+    },
+    {
+        "id": 34,
+        "title": "State Championship",
+        "des": "State Level",
+        "img": "/images/img4.jfif",
+        "date": "12.10.2023",
+        "address": "Hyderabad"
+    },
+    {
+        "id": 35,
+        "title": "National Championship",
+        "des": "National Level",
+        "img": "/images/img5.jfif",
+        "date": "22.11.2023",
+        "address": "Pune"
+    },
+    {
+        "id": 36,
+        "title": "International Championship",
+        "des": "International Level",
+        "img": "/images/img6.jfif",
+        "date": "2.12.2023",
+        "address": "Kolkata"
+    },
+    {
+        "id": 37,
+        "title": "Open Tournament",
+        "des": "Open for all",
+        "img": "/images/img7.jfif",
+        "date": "10.3.2024",
+        "address": "Ahmedabad"
+    },
+    {
+        "id": 38,
+        "title": "Women's Championship",
+        "des": "Women's Only",
+        "img": "/images/img8.jfif",
+        "date": "24.1.2024",
+        "address": "Chennai"
+    },
+    {
+        "id": 39,
+        "title": "Junior Tournament",
+        "des": "Under 18",
+        "img": "/images/img9.jfif",
+        "date": "6.2.2024",
+        "address": "Delhi"
+    },
+    {
+        "id": 40,
+        "title": "Senior Tournament",
+        "des": "Above 50",
+        "img": "/images/img10.jfif",
+        "date": "13.3.2024",
+        "address": "Mumbai"
+    },
+    {
+        "id": 41,
+        "title": "Chess Extravaganza",
+        "des": "Open for all",
+        "img": "/images/img11.jfif",
+        "date": "7.4.2024",
+        "address": "Hyderabad"
+    },
+    {
+        "id": 42,
+        "title": "Knight's Battle",
+        "des": "Rapid Tournament",
+        "img": "/images/img12.jfif",
+        "date": "18.5.2024",
+        "address": "Pune"
+    },
+    {
+        "id": 43,
+        "title": "Rook's Defense",
+        "des": "Senior Tournament",
+        "img": "/images/img13.jfif",
+        "date": "30.6.2024",
+        "address": "Kolkata"
+    },
+    {
+        "id": 44,
+        "title": "Bishop's Attack",
+        "des": "Junior Tournament",
+        "img": "/images/img14.jfif",
+        "date": "22.7.2024",
+        "address": "Ahmedabad"
+    },
+    {
+        "id": 45,
+        "title": "King's Defense",
+        "des": "Open Championship",
+        "img": "/images/img3.jfif",
+        "date": "11.9.2024",
+        "address": "Chennai"
+    },
+    {
+        "id": 46,
+        "title": "Queen's Gambit",
+        "des": "Women's Only",
+        "img": "/images/img1.avif",
+        "date": "3.9.2024",
+        "address": "Delhi"
+    },
+    {
+        "id": 47,
+        "title": "Pawn's Progress",
+        "des": "Beginners Tournament",
+        "img": "/images/img2.jfif",
+        "date": "27.10.2024",
+        "address": "Mumbai"
+    },
+    {
+        "id": 48,
+        "title": "Knight's Journey",
+        "des": "Open for all",
+        "img": "/images/img3.jfif",
+        "date": "19.11.2024",
+        "address": "Hyderabad"
+    },
+    {
+        "id": 49,
+        "title": "Chess Legends",
+        "des": "Veteran Tournament",
+        "img": "/images/img4.jfif",
+        "date": "14.12.2024",
+        "address": "Pune"
+    },
+    {
+        "id": 50,
+        "title": "Chess Conquest",
+        "des": "Open for all",
+        "img": "/images/img5.jfif",
+        "date": "29.1.2025",
+        "address": "Kolkata"
     }
-    
 ]

@@ -1,30 +1,55 @@
-import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import React, { useState, useEffect } from 'react';
 import { Grid, Card, CardContent, Typography, CardActions, Pagination } from '@mui/material';
 import Container from '@mui/material/Container';
 import { CardActionArea } from '@mui/material';
 import EventIcon from '@mui/icons-material/Event';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import Button from '@mui/material/Button';
-import Carousel from 'react-material-ui-carousel';
 import jsPDF from 'jspdf';
+import { useNavigate } from 'react-router-dom'; // Import useNavigate
+
 import Data from './Data.json';
 
-function OnGoingTour() {
+function UpcomingTournaments() {
   const [page, setPage] = useState(1);
+  const [filteredTournaments, setFilteredTournaments] = useState([]);
   const itemsPerPage = 6;
   const navigate = useNavigate(); // Initialize useNavigate hook
 
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to top when component mounts
+    filterTournaments();
+  }, []);
+
+  useEffect(() => {
+    filterTournaments();
+  }, [page]);
+
+  const filterTournaments = () => {
+    const currentDate = new Date();
+    const currentYear = currentDate.getFullYear();
+    const currentMonth = currentDate.getMonth();
+  
+    const upcomingTournaments = Data.filter(tournament => {
+      const [day, month, year] = tournament.date.split('.').map(Number);
+      const tournamentDate = new Date(year, month - 1, day); // Month is 0-indexed in JavaScript dates
+  
+      // Check if tournament date is in the current month and year
+      if (year === currentYear && month === (currentMonth + 1)) {
+        return true;
+      }
+      return false;
+    });
+  
+    setFilteredTournaments(upcomingTournaments);
+  };
+  
   const handleChange = (event, value) => {
     setPage(value);
   };
 
-  const indexOfLastItem = page * itemsPerPage;
-  const indexOfFirstItem = indexOfLastItem - itemsPerPage;
-  const currentItems = Data.slice(indexOfFirstItem, indexOfLastItem);
-
   const handleRegistration = () => {
-    navigate('/registration'); // Redirect to the registration form page
+    navigate('/registration'); // Use navigate to redirect
   };
 
   const handleDownloadPDF = (imgUrl) => {
@@ -50,6 +75,7 @@ function OnGoingTour() {
       const imgHeightMM = (canvasHeight / canvasWidth) * imgWidthMM; // Maintain aspect ratio
       pdf.addImage(dataUrl, 'PNG', 0, 0, imgWidthMM, imgHeightMM, '', 'FAST'); // Add image with full size and high quality
       pdf.save('tour_image.pdf');
+      alert('Downloaded Successfuly');
     };
 
     img.onerror = (error) => {
@@ -57,25 +83,28 @@ function OnGoingTour() {
     };
   };
 
-  // Parse date strings to Date objects
-  const tournaments = Data.map(tournament => ({
-    ...tournament,
-    dateObj: new Date(tournament.date.split('.').reverse().join('-'))
-  }));
-
-  // Get current date
-  const currentDate = new Date();
-
-  // Filter tournaments based on their dates
-  const ongoingTournaments = tournaments.filter(tournament => tournament.dateObj.getMonth() === currentDate.getMonth());
-
-  // Render filtered ongoing tournaments
+  // Render Upcoming Tournaments
   return (
     <div style={{ display: 'flex', justifyContent: 'center' }}>
       <Container maxWidth="xl">
-        <Typography variant="h4" style={{ textAlign: "center" }}>Ongoing Tournaments</Typography>
+      <Typography 
+  variant="h4" 
+  style={{ 
+    justifyContent:"center",
+    textAlign: "center", 
+    padding: "10px", 
+    color:"#ff4879",
+    paddingBottom: "1px",
+    borderRadius: "10px", 
+    boxShadow: "0 4px 8px rgba(255, 72, 121, 0.1)"
+
+  }}
+>
+  OnGoing Tournaments
+</Typography>
+     
         <Grid container spacing={1} style={{ marginTop: "20px", justifyContent: 'center', width: '100%' }}>
-          {ongoingTournaments.map((result, index) => (
+          {filteredTournaments.slice((page - 1) * itemsPerPage, page * itemsPerPage).map((result, index) => (
             <Grid item xs={12} sm={9} md={4} key={index} style={{ display: 'flex', justifyContent: 'center' }}>
               <Card className="card" sx={{ maxWidth: 345, width: '100%' }} style={{ padding: "10px", marginBottom: "30px" }}>
                 <CardActionArea>
@@ -124,7 +153,7 @@ function OnGoingTour() {
         </Grid>
         <div style={{ display: 'flex', justifyContent: 'flex-end', marginTop: '-20px', backgroundColor: '#f5f5f5', padding: '10px 0' }}>
           <Pagination
-            count={Math.ceil(Data.length / itemsPerPage)}
+            count={Math.ceil(filteredTournaments.length / itemsPerPage)}
             page={page}
             onChange={handleChange}
             variant="outlined"
@@ -136,4 +165,4 @@ function OnGoingTour() {
   );
 }
 
-export default OnGoingTour;
+export default UpcomingTournaments;
