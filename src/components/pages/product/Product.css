@@ -7,7 +7,11 @@
   border: 1px solid #ccc;
   border-radius: 5px;
   color: #081b29;
-  background-color: #f38eac;
+  
+  /* background-color: #f38eacba; */
+  background-image:url(../../../images/course\ page.webp);
+  filter: brightness(85%);
+  background-size: cover;
 }
 
 .course-container h1 {
