@@ -4,7 +4,7 @@
         "title": "International Chess Day",
         "des": "",
         "img": "/images/img1.avif",
-        "date": "20.3.2024",
+        "date": "20.3.2025",
         "address": "Chess Arena South Hall"
     },
     {
@@ -20,7 +20,7 @@
         "title": "Womens Chess Tournament",
         "des": "Only TN Women Players",
         "img": "/images/img3.jfif",
-        "date": "28.4.2023",
+        "date": "28.3.2025",
         "address": "Kovilpati"
     },
     {
@@ -397,6 +397,62 @@
         "des": "Open for all",
         "img": "/images/img5.jfif",
         "date": "29.1.2025",
+        "address": "Kolkata"
+    },
+    {
+        "id": 44,
+        "title": "Bishop's Attack",
+        "des": "Junior Tournament",
+        "img": "/images/img14.jfif",
+        "date": "22.3.2025",
+        "address": "Ahmedabad"
+    },
+    {
+        "id": 45,
+        "title": "King's Defense",
+        "des": "Open Championship",
+        "img": "/images/img3.jfif",
+        "date": "11.9.2025",
+        "address": "Chennai"
+    },
+    {
+        "id": 46,
+        "title": "Queen's Gambit",
+        "des": "Women's Only",
+        "img": "/images/img1.avif",
+        "date": "3.9.2025",
+        "address": "Delhi"
+    },
+    {
+        "id": 47,
+        "title": "Pawn's Progress",
+        "des": "Beginners Tournament",
+        "img": "/images/img2.jfif",
+        "date": "27.10.2025",
+        "address": "Mumbai"
+    },
+    {
+        "id": 48,
+        "title": "Knight's Journey",
+        "des": "Open for all",
+        "img": "/images/img3.jfif",
+        "date": "19.11.2025",
+        "address": "Hyderabad"
+    },
+    {
+        "id": 49,
+        "title": "Chess Legends",
+        "des": "Veteran Tournament",
+        "img": "/images/img4.jfif",
+        "date": "14.12.2025",
+        "address": "Pune"
+    },
+    {
+        "id": 50,
+        "title": "Chess Conquest",
+        "des": "Open for all",
+        "img": "/images/img5.jfif",
+        "date": "29.3.2025",
         "address": "Kolkata"
     }
 ]
